@@ -1,0 +1,59 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,div,dl,dt,dd,input,img{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none 0;display:block;vertical-align:top; }
+
+li{list-style:none;}
+i,em,b,strong{font-style:normal; font-weight:normal;}
+
+a{text-decoration:none;}
+html { overflow-x: hidden; }
+.floatL{float:left;}
+.floatR{float:right;}
+.fixpos{position:fixed;}
+.abspos{position:absolute;}
+.show{display:block;}
+.hide{display:none;}  
+.txtCen{text-align:center;}
+
+
+/*清除input框默认样式*/
+input,select,textarea{outline:none;border:none 0;background:none; vertical-align: middle; }
+input::-ms-clear{display:none;}
+/*兼容低版本浏览器 */ 
+
+textarea{resize:none;overflow:hidden;}
+/*去掉文本域拖拽 去掉滚动条*/
+
+
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+/* 选择 */
+::selection {background-color:#669900; color:#fff; text-shadow:none;}
+::-moz-selection {background-color:#669900; color:#fff;text-shadow:none;}
+
+/* 去掉a的下划线 */
+a {blr:expression(this.onFocus=this.blur())} /*if IE*/
+a {outline:none;}/*if 火狐等现代浏览器浏览器*/ 
+
+/* 省略号 */
+/* white-space:nowrap;overflow:hidden;text-overflow:ellipsis; */
+
+/* 英文自动换行 */
+/* word-break: break-all; */
+
+/* 强制不换行 */
+/* white-space:nowrap; */
+
+/* ie6  border透明 */
+/* _border-left-color:tomato; 
+_border-right-color:tomato;
+_border-bottom-color:tomato;  */
+
+
+
+/* 透明度兼容写法 
+opacity:0.5;filter:alpha(opacity=50);
+
+*/
